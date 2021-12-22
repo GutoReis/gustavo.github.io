@@ -1,3 +1,37 @@
-html {
+.html, body {
     font-family: 'Spartan', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+}
+
+.column-left{
+    float: left;
+    background-color: #001c45;
+    color: #e5e5e5;
+    flex: 0 0 35%;
+    padding: 0.5cm;
+}
+
+.column-right{
+    float: right;
+    flex: 0 0 65%;
+    padding: 1cm;
+}
+
+.box {
+    display: flex;
+    width: 100%;
+}
+
+.row.after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skills{
+    float: right;
 }
