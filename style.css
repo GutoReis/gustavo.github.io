@@ -35,3 +35,11 @@ body {
 .skills{
     float: right;
 }
+
+.custom-hr{
+    border: 1px solid #001c45;
+}
+
+.custom-h2{
+    color: #001c45;
+}
